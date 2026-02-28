@@ -1,0 +1,8 @@
+.git
+.git_broken
+.gitignore
+*.md
+tests/
+__pycache__/
+*.pyc
+.env
