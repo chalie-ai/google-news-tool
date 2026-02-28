@@ -195,7 +195,7 @@ def _render_html(results: list) -> str:
     if not results:
         return (
             f'<p style="color:{_TEXT_TERTIARY};font-size:13px;'
-            f'font-family:system-ui,-apple-system,sans-serif;padding:10px 2px;margin:0;">'
+            f'font-family:system-ui,-apple-system,sans-serif;padding:12px 14px;margin:0;">'
             f'No news articles found.</p>'
         )
 

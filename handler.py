@@ -145,7 +145,7 @@ def _fetch_with_retry(query: str, region: str, period: str, language: str):
                 gn.set_period(period)
             gn.clear()
             gn.get_news(query)
-            raw = gn.results(sort=True)
+            raw = gn.result()
             gn.clear()
             if raw is not None:
                 articles = [_normalize_article(r) for r in raw if r.get("title", "").strip()]
