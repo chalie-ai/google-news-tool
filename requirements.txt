@@ -1,0 +1,2 @@
+GoogleNews>=1.6.15
+dateparser>=1.2.0
